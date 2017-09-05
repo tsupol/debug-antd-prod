@@ -1,0 +1,19 @@
+#Webstorm metadata
+.idea
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+.next
+/wmmdb.sqlite
+# static/styles.css
+
+# no uploaded product image
+/static/uploads
+
+#yarn
+/yarn.lock
+/yarn-error.log
+
+.babelrc
