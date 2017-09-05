@@ -30,6 +30,7 @@ npm run start-win
 
 ## Note
 In this repo, there are many ways to eliminate the error...
+* removes `<Checkbox>Checkbox</Checkbox>` from `components/sell/SellForm.js`
 * comments `import { connect } from 'react-redux'` in `components/sell/SellForm.js`
 * delete a file in `pages/subdir/`
 * remove `antd` import from `.babelrc`

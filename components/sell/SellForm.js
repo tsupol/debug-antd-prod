@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Icon, Input, Button, Select, message, Checkbox, Modal, Alert } from 'antd'
+import { Form, Checkbox, } from 'antd'
 const FormItem = Form.Item
 
 // Note: just comment this the below import line
@@ -13,6 +13,7 @@ import { connect } from 'react-redux'
 class SellForm extends React.Component {
 
   render () {
+    const { getFieldDecorator } = this.props.form
     return (
       <div>
         <Form>
