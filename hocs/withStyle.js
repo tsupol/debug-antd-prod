@@ -6,7 +6,6 @@ import theme from '../styles/theme'
 import scssStyles from '../styles/index.scss'
 // comment this on production build
 // import antStyle from '../styles/ant-theme-vars.less'
-import carouselStyles from 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { LocaleProvider } from 'antd'
 import enUS from 'antd/lib/locale-provider/en_US'
 
@@ -40,7 +39,6 @@ export default ComposedComponent => class DefaultPage extends React.Component {
           {cssFiles.map((c, i) => <link key={i} href={c} rel='stylesheet'/>)}
           <link rel="stylesheet" href="/static/styles.css" />
           <style dangerouslySetInnerHTML={{ __html: scssStyles }}/>
-          <style dangerouslySetInnerHTML={{ __html: carouselStyles }}/>
           <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet"/>
           <title>Debug</title>
